@@ -14,7 +14,7 @@ export SDCLANG_COMMON_FLAGS="-O3 -fvectorize -Wno-user-defined-warnings -Wno-vec
 -fno-sanitize-minimal-runtime \
 -fno-sanitize=implicit-integer-sign-change \
 -fno-sanitize-trap=integer,undefined \
--fno-sanitize-recover=integer,undefined
+-fno-sanitize-recover=integer,undefined \
 -Wno-deprecated-register -Wno-tautological-type-limit-compare -Wno-sign-compare -Wno-gnu-folding-constant \
 -mllvm -arm-implicit-it=always -Wno-inline-asm -Wno-unused-command-line-argument -Wno-unused-variable"
 
