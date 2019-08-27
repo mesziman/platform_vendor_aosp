@@ -1,7 +1,7 @@
 # Set SDClang defaults
 export SDCLANG=false
 export SDCLANG_PATH=prebuilts/snapdragon/sd8/bin
-export SDCLANG_LTO_DEFS=vendor/syberia/sdclang/sdllvm-lto-defs.mk
+export SDCLANG_LTO_DEFS=vendor/aosp/sdclang/sdllvm-lto-defs.mk
 export SDCLANG_COMMON_FLAGS="-O3 -fvectorize -Wno-user-defined-warnings -Wno-vectorizer-no-neon -Wno-unknown-warning-option \
 -mdefault-to-arm -mcpu=cortex-a55 -mtune=cortex-a55 -Wno-defaulted-function-deleted -Wno-user-defined-warnings -Wno-vectorizer-no-neon -Wno-unknown-warning-option \
 -Wno-deprecated-register -Wno-tautological-type-limit-compare -Wno-sign-compare -Wno-gnu-folding-constant \
